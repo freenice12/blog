@@ -13,9 +13,6 @@ footnoteReturnLinkContents = "^"
 # and disqus too.
 # #disqusShortName = "yourdisqusshortname"
 
-[params.goatcounter]
-  domain="freenice12.github.io"
-
 [Author]
   name = "freenice12"
 
