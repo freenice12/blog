@@ -27,15 +27,14 @@ OOP를 더 연습해서 코드에 적용해 보고싶고, FP를 실무에 사용
   * [초보 웹 개발자를 위한 스프링5 프로그래밍 입문](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=157472828)
   * [테스트 주도 개발 시작하기](http://www.yes24.com/Product/Goods/89145195)
 * 관심 및 참여:
-  * MSA, DDD: AKKA를 이용한 마이크로 서비스 개발 스터디
   * 실전 TDD 참관 및 TDD 스터디
-  * 아이스크림 에듀 [공개 세미나](https://festa.io/events/630) 참석
   * 코드스피츠 스터디 다수
   * 원리부터 배우는 관계형 데이터베이스 실전 입문, 코틀린으로 배우는 함수형 프로그래밍 스터디
-  * 한국 스프링 사용자 모임 스탭 참여
   * 라 스칼라 코딩단 스터디
     * [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1) 외.
-
+  * MSA, DDD: AKKA를 이용한 마이크로 서비스 개발 스터디
+  * 아이스크림 에듀 [공개 세미나](https://festa.io/events/630) 참석
+  * 한국 스프링 사용자 모임 오프라인 행사 스탭 참여
 
 # 관심
 ---
