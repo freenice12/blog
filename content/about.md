@@ -1,5 +1,5 @@
 ---
-title: 'Who am I'
+title: '누구세요?'
 button: 'About us'
 weight: 2
 ---
