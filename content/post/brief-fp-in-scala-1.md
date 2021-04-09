@@ -1,10 +1,10 @@
 ---
-title: "스칼라로 본 Functional Programming(FP)"
+title: "스칼라로 본 Functional Programming(FP) - 1"
 date: 2021-04-08T21:27:10+09:00
 draft: true
 ---
 
-# 스칼라로 본 Functional Programming(FP)
+# 스칼라로 본 Functional Programming(FP) - 1
 
 ## 서론
 
@@ -12,7 +12,7 @@ FP라는 개념을 알게되고 실제로 프로그래밍 하기 전까지 왜 �
 
 많은 책들이 행위의 정의 및 코드로 구현 즉 typeclass를 열심히 설명 해줍니다. 언젠가는 이것들이 왜 그리고 언제 필요한지. 이것들을 통한 실 세계(real-world)의 예제를 가지고 꼭 포스팅을 해보도록 하겠습니다. 여러분도 많이 들어보셨을 바로 그! 이야기!
 
-> Talk is cheap. Show me the F code!
+> Talk is cheap. Show me the ... code!
 
 ## Cats와 함께하는 FP (Cats 문서 내용을 토대로 내용을 전개합니다.)
 
@@ -79,4 +79,18 @@ def neoPlusAll[A](list: List[A], ap: AllPlus[A]): A = list.foldRight(ap.initValu
   * "initValue" => `empty`
   * "allPlus" => `combine`
 
-이렇게 이름을 바꾸면 완전한(남들이 말하는!) 모노이드가 됩니다. 모노이드는 또 `SemiGroup(combine)`의 조합과 확장(`empty`)을 통해 표현하는데 이런건 천천히 알아봐도 되고 일단 모노이드는 이런거구나 하고 넘어가도록 하겠습니다. 왜냐면 우리는 `나중에 이걸 어디서 어떻게 써먹을지`에 관심이 더 있기 때문입니다.
+이렇게 이름을 바꾸면 완전한(남들이 말하는!) 모노이드가 됩니다.
+
+
+실제 캣츠에서 모노이드의 정의를 보고 마무리 하겠습니다. 세미 그룹을 확장하고 거기에 empty를 추가해 정의되어 있습니다.
+
+```scala
+trait Semigroup[A] {
+  def combine(x: A, y: A): A
+}
+
+trait Monoid[A] extends Semigroup[A] {
+  def empty: A
+}
+```
+캣츠에서는 모노이드를 `SemiGroup(combine)`의 조합과 확장(`empty`)을 통해 표현하는데 이런건 천천히 알아봐도 되고 일단 모노이드는 이런거구나 하고 넘어가도록 하겠습니다. 왜냐면 우리는 `나중에 이걸 어디서 어떻게 써먹을지`에 관심이 더 있기 때문입니다(나중에 잘 알게되면 수정해야 할 내용일지도...).
