@@ -24,7 +24,7 @@ FP라는 개념을 알게되고 실제로 프로그래밍 하기 전까지 왜 �
 
 > Type classes are a powerful tool used in functional programming to enable ad-hoc polymorphism, more commonly known as overloading. Where many object-oriented languages leverage subtyping for polymorphic code, functional programming tends towards a combination of parametric polymorphism (think type parameters, like Java generics) and ad-hoc polymorphism.
 
-타입 클래스는 FP에서 ad-hoc(임시) 다형성(오버로딩으로 더 잘 알려짐)을 가능하게 하는 강력한 도구입니다. 많은 개채 지향 언어의 다형적 코드에 대한 subtyping을 활용하는데, FP는 파라미터를 이용한 다형성(자바 제네릭같은 타입 파라미터를 생각해보세요)과 ad-hoc 다형성 조합을 지향합니다.
+타입 클래스는 FP에서 임시(ad-hoc) 다형성(polymorphism, 오버로딩으로 더 잘 알려짐)을 가능하게 하는 강력한 도구입니다(임시 다형성은 다른 글에서도 소개됩니다). 많은 개채 지향 언어의 다형적 코드에 대한 subtyping을 활용하는데, FP는 파라미터를 이용한 다형성(자바 제네릭같은 타입 파라미터를 생각해보세요)과 임시(ad-hoc) 다형성 조합을 지향합니다.
 
 #### Data types(문서 내용)
 
