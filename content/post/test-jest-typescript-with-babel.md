@@ -12,11 +12,11 @@ $ yarn add --dev jest
 $ yarn add --dev babel-jest @babel/core @babel/preset-env @babel/preset-typescript @types/jest
 ```
 
-타입스크립트를 jest로 테스트 할때 Typescript를 사용하기 위해서는 ES6+ 하위 호환 및 ts -> js 변환을 위한 `babel`이란 녀석이 꼭 필요하다고 합니다.
+타입스크립트를 jest로 테스트 할때 TypeScript를 사용하기 위해서는 ES6+ 하위 호환 및 ts -> js 변환을 위한 `babel`이란 녀석이 꼭 필요하다고 합니다.
 
 ### 과정
 
-> Typescript를 사용하는 프로젝트인데 jest를 사용하고 싶었다. import부터 제대로 되지 않는다...
+> TypeScript를 사용하는 프로젝트인데 jest를 사용하고 싶었다. import부터 제대로 되지 않는다...
 
 프론트에서도 테스트를 사용해 내가 원하는 기능은 먼저 테스트해 보고, 화면을 그리는 UI~~나에게는 매우 어려운~~ 작업은 눈으로 테스트해 보려고 했습니다. 그런데 처음부터 만나게 된 import를 할 수 없다는 오류 메시지..
 
