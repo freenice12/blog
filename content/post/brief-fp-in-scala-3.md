@@ -1,7 +1,6 @@
 ---
 title: "스칼라로 본 Functional Programming(FP) - 3"
 date: 2021-04-21T21:38:30+09:00
-draft: true
 ---
 
 # 스칼라로 본 Functional Programming(FP) - 3
